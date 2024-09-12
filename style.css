@@ -19,10 +19,59 @@ header h1 {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    color: rgb(159, 121, 70)
+    color: rgb(159, 121, 70);
+    text-align: center;
+    margin: 10px 0;
 }
 
 .container {
     max-width: 300px;
     margin: 0 auto;
 }
+
+input {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+input, button {
+    padding: 5px;
+}
+
+
+button {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color:rgb(159, 121, 70);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul li {
+    margin: 20px 0;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(159, 121, 70);
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+
