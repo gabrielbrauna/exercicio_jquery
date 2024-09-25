@@ -7,9 +7,9 @@ $(document).ready(function(){
         $(`<p>${textoTarefa}</p>`).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ul');
         $('#id-valor-tarefa').val('');
-    })
 
-    $('li').click(function() {
-        $(this).addClass('.riscado')
-    })
-})
+    $('p').click(function() {
+        $(this).toggleClass('.riscado')
+        })
+    }); 
+});
