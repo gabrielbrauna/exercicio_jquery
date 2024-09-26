@@ -8,8 +8,8 @@ $(document).ready(function(){
         $(novaTarefa).appendTo('ul');
         $('#id-valor-tarefa').val('');
 
-    $('p').click(function() {
-        $(this).toggleClass('.riscado')
+    $("p").click(function() {
+        $(this).addClass("riscado");
         })
     }); 
 });
